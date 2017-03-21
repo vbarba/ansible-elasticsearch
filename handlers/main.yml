@@ -12,4 +12,4 @@
 
 - name: load-templates
   include: elasticsearch-templates.yml
-  when: es_templates
+
