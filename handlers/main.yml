@@ -11,4 +11,4 @@
 #Templates done after restart therefore - as a handler.
 
 - name: load-templates
-  command: echo "hola"
+  include: elasticsearch-templates.yml
