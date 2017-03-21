@@ -11,5 +11,6 @@
 #Templates done after restart therefore - as a handler.
 
 - name: load-templates
-  include: elasticsearch-templates.yml
+  include: ./handlers/elasticsearch-templates.yml
+  when: es_templates
 
